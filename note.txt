@@ -1,0 +1,20 @@
+create file package.json
+=> npm init -y
+
+install library express to create web server
+=> npm install express ejs --save
+=> npm install body-parser --save
+
+install library authentication -> Passport
+=> npm install passport --save
+=> npm install passport-local --save
+=> npm install express-session --save
+
+OPTIONAL: install library connect to database
+=> npm install --save sequelize
+# And one of the following:
+$ npm install --save pg pg-hstore // Postgre database
+$ npm install --save mysql2 // MySQL database
+$ npm install --save sqlite3 // SqlLite
+$ npm install --save tedious // MSSQL
+
